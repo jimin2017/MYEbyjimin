@@ -10,7 +10,7 @@ namespace Hs.Tools
     {
         public static string GetContent(string url)
         {
-            //第一句，抓
+            //第一句，抓////
             XElement xml = XElement.Load(url);
 
             //第二句，取
